@@ -1,0 +1,33 @@
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3e3c9;
+  }
+  
+  .panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  .left-panel {
+    border-radius: 1rem 0 0 1rem;
+  }
+  
+  .middle-panel {
+    border-radius: 0 2rem 2rem 0;
+    margin: 0 -1rem;
+    z-index: 1;
+  }
+  
+  .right-panel {
+    border-radius: 0 1rem 1rem 0;
+  }
+  
